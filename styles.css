@@ -270,3 +270,45 @@ h3 {
     color: white;
     margin-left: 10px;
 }
+
+.carth2 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center; 
+    margin-top: 70px;
+}
+
+.carttext {
+    display: flex;
+    border-bottom: 1px solid black;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.carth3 {
+    margin-right: 550px;
+}
+
+.productsincart {
+    display: flex;
+    margin: 20px auto;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.cartimage {
+    width: 200px;
+    height: 300ppx;
+    object-fit: contain;
+}
+
+.carth3nd {
+    margin-right: 400px;
+}
+
+.carth4 {
+    margin-right: 100px;
+}
