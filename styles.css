@@ -33,6 +33,7 @@ a {
 .logo {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .mainsection {
@@ -41,6 +42,15 @@ a {
     gap: 30px;
     align-items: center;
     padding: 100px;
+}
+
+.productsection {
+    display: grid;
+    grid-template-columns: 300px 600px;
+    gap: 50px;
+    align-items: center;
+    padding: 100px;
+    margin-left: 70px;
 }
 
 .ecojpg {
@@ -62,6 +72,12 @@ button {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button:hover {
+    background-color: #013f1e;
+    color: white;
+}
+
+
 .collectionpotato {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -82,7 +98,7 @@ h3 {
     border-radius: 0px;
     padding: 5px 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 .collectionsec {
@@ -101,5 +117,156 @@ h3 {
 
  .productp {
     max-width: 400px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
  }
+
+ .buttondiv {
+    text-align: left;
+    margin-top: 40px;
+ }
+
+ .buttondiv a {
+    display: block;
+    margin-bottom: 10px;
+ }
+
+ .productbutton {
+    background-color: #004B23;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    width: 150px;
+    height: 40px;
+ }
+
+ .productbuttonadd {
+    background-color: #F2F2F2;
+    color: black;
+    border: none;
+    border-radius: 0px;
+    width: 150px;
+    height: 40px;
+ }
+
+ .producth2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .sectionabout {
+    margin-top: 90px;
+    margin-bottom: 140px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+.sectioncontact {
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+}
+
+.sectionconsocial {
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+    background-color: #004B23;
+    padding: 40px;
+}
+
+.logoh3 {
+    margin: 0px;
+    color: #004B23;
+    margin-top: -10px;
+}
+
+.aboutp {
+    width: 500px;
+    margin: 40px auto;
+    font-size: 15px;
+}
+
+.abouth2 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.contacth2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center; 
+}
+
+.socialh2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    color: white;
+}
+
+.name {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(229, 229, 229);
+    padding: 10px;
+}
+
+.email {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(229, 229, 229);
+    padding: 10px;
+}
+
+.message {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(229, 229, 229);
+    padding: 10px;
+}
+
+.contactbutton {
+    border: none;
+    padding: 8px;
+    width: 200px;
+    background-color: #004B23;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    }
+
+.socialimg {
+    width: 70px;
+}
+
+.socialdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.socialh3 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    color: white;
+    margin-left: 10px;
+}
