@@ -312,3 +312,33 @@ h3 {
 .carth4 {
     margin-right: 100px;
 }
+
+.cartcheckout {
+    margin: 20px auto;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cartsubtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: right;
+    }
+
+.carttotal {
+    width: 300px;
+}
+
+.carttextborder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: right;
+    border-bottom: 1px solid black;
+}
