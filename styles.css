@@ -468,3 +468,25 @@ label {
     border-bottom: 1px solid black;
     margin-bottom: 40px;
 }
+
+.icon {
+    width: 40px;
+}
+
+.navdiv {
+    background-color: #004B23;
+    width: 50%;
+    margin: 0px auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navh3 {
+    padding: 15px;
+}
+
+.logindiv {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
