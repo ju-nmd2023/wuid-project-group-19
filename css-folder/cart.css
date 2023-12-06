@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #004b23;
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  align-items: center;
+}
