@@ -91,6 +91,16 @@ h3 {
   margin-left: 80px;
   margin-top: 40px;
 }
+.collectionh3 {
+  display: flex;
+  justify-content: left;
+}
+.collectionh3div {
+  width: 1250px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
 
 .gridbutton {
   background-color: #004b23;
@@ -103,7 +113,8 @@ h3 {
 }
 
 .collectionsec {
-  padding: 20px 80px;
+  align-items: center;
+  justify-content: center;
   display: grid;
   grid-template-columns: 220px 220px 220px 220px 220px;
   row-gap: 40px;
@@ -270,6 +281,9 @@ h3 {
   text-align: center;
   color: white;
   margin-left: 10px;
+}
+.cart {
+  width: 30px;
 }
 
 .carth2 {
