@@ -2,6 +2,12 @@ body {
   margin: 0;
 }
 
+.griddiv {
+  justify-content: center;
+  align-items: center;
+  margin: auto 10px;
+}
+
 .navbar {
   background-color: #004b23;
   color: white;
@@ -97,7 +103,7 @@ h3 {
   justify-content: left;
 }
 .collectionh3div {
-  width: 1350px;
+  width: 1250px;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -114,12 +120,11 @@ h3 {
 }
 
 .collectionsec {
-  align-items: center;
   justify-content: center;
   display: grid;
   grid-template-columns: 240px 240px 240px 240px 240px;
   row-gap: 50px;
-  margin-bottom: 50px;
+  margin-left: 80px;
 }
 
 .potatogrid {
@@ -509,3 +514,50 @@ label {
   justify-content: space-between;
   width: 250px;
 }
+
+.potatogrid:hover {
+  animation-name: scale;
+  animation-duration: 2s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+.potatologocollection {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-left: 85px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+}
+.surprisepotato {
+  object-fit: contain;
+}
+.surprisepotatodiv {
+  width: 500px;
+  margin: 150px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.suprisedivimg {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.questiondiv {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
