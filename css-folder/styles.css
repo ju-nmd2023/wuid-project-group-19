@@ -31,6 +31,17 @@ body {
   margin-top: 250px;
 }
 
+
+.contactdiv {
+  display: flex;
+  position: relative;
+  left: 200px;
+
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  width: 250px;
+}
 a {
   color: white;
   text-decoration: none;

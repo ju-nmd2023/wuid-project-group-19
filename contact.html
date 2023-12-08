@@ -20,18 +20,26 @@
 
     <section class="sectioncontact">
       <h2 class="contacth2">Contact Us!</h2>
-      <form onsubmit="submitForm(event)">
-        <label for="name">Name</label>
-        <input type="text" class="name" name="name" required />
+      <div class="contactdiv">
+        <form onsubmit="submitForm(event)">
 
-        <label for="email">Email</label>
-        <input type="email" class="email" name="email" required />
 
-        <label for="message">Message</label>
-        <textarea class="message" name="message" rows="4" required></textarea>
+          <label for="name">Name</label>
+          <input type="text" class="name" name="name" required />
+  
 
-        <input class="contactbutton" type="submit" value="Submit" />
-      </form>
+            <label for="email">Email</label>
+            <input type="email" class="email" name="email" required />
+      
+
+          <label for="message">Message</label>
+          <textarea class="message" name="message" rows="4" required></textarea>
+  
+
+
+          <input class="contactbutton" type="submit" value="Submit" />
+        </form>
+      </div>
     </section>
 
     <div class="footer">
