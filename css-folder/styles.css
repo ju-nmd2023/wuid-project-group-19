@@ -69,6 +69,14 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   color: #004b23;
   font-size: 44px;
+  animation-name: slideleft;
+  animation-duration: 4s;
+}
+
+@keyframes slideleft {
+  from {
+    transform: translateX(50%);
+  }
 }
 
 button {
@@ -125,6 +133,7 @@ h3 {
   grid-template-columns: 240px 240px 240px 240px 240px;
   row-gap: 50px;
   margin-left: 80px;
+  gap: 30px;
 }
 
 .potatogrid {
@@ -560,4 +569,3 @@ label {
   justify-content: center;
   display: flex;
 }
-

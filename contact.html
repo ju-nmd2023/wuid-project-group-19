@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> EcoPotato </title>
-    <link rel="stylesheet" href="/css-folder/styles.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoPotato</title>
+    <link rel="stylesheet" href="/css-folder/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
     <div class="navbar">
-        <a href="nav.html"> <img class="icon" src="gallery/icons8-menu-50.png"> </a>
-        <a href="index.html"> <div class="logo"> ECOPOTATO</div> </a>
-        <a href="cart.html">
-            <img class="cart" src="/gallery/cart.png" />
-          </a>
+      <a href="nav.html">
+        <img class="icon" src="gallery/icons8-menu-50.png" />
+      </a>
+      <a href="index.html"> <div class="logo">ECOPOTATO</div> </a>
+      <a href="cart.html">
+        <img class="cart" src="/gallery/cart.png" />
+      </a>
     </div>
 
     <section class="sectioncontact">
-        <h2 class="contacth2"> Contact Us! </h2>
-        
-            <label for="name">Name</label>
-            <input type="text" class="name" name="name" required>
+      <h2 class="contacth2">Contact Us!</h2>
+      <form onsubmit="submitForm(event)">
+        <label for="name">Name</label>
+        <input type="text" class="name" name="name" required />
 
-            <label for="email">Email</label>
-            <input type="email" class="email" name="email" required>
+        <label for="email">Email</label>
+        <input type="email" class="email" name="email" required />
 
-            <label for="message">Message</label>
-            <textarea class="message" name="message" rows="4" required></textarea>
+        <label for="message">Message</label>
+        <textarea class="message" name="message" rows="4" required></textarea>
 
-            <input class="contactbutton" type="submit" value="Submit">
-        </form>
+        <input class="contactbutton" type="submit" value="Submit" />
+      </form>
     </section>
 
     <div class="footer">
-        <a href="about.html"> About </a>
-        <a href="contact.html"> Contact </a>
-        <a href="social.html" id="cart"> Social Media </a>
+      <a href="about.html"> About </a>
+      <a href="contact.html"> Contact </a>
+      <a href="social.html"> Social Media </a>
     </div>
-    
-</body>
+  </body>
 </html>

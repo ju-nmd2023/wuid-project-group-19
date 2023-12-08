@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EcoPotato</title>
     <link rel="stylesheet" href="/css-folder/styles.css" />
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <div class="navbar">
@@ -23,7 +24,7 @@
       </div>
 
       <div class="realnofake">
-        <h2 class="producth2">Standrad Potato</h2>
+        <h2 class="producth2">Standard Potato</h2>
         <p class="productp">
           Potatoes, the versatile tuber, are a kitchen staple enjoyed in
           countless forms worldwide. <br />
@@ -31,10 +32,15 @@
           Whether mashed, roasted, fried, or boiled, these humble yet delicious
           spuds add a comforting touch to your meals.
         </p>
-        <div class="buttondiv">
-          <a href="collection.html">
-            <button class="productbuttonadd">Quantity - 2 +</button>
-          </a>
+
+
+        <label for="quantity">Quantity:</label>
+<input type="number" id="quantityn" value="1" min="1">
+
+<button onclick="decreaseQuantity()">-</button>
+<button onclick="increaseQuantity()">+</button>
+
+
           <a href="cart.html">
             <button class="productbuttonadd">Add to cart</button>
           </a>
@@ -52,3 +58,4 @@
     </div>
   </body>
 </html>
+
