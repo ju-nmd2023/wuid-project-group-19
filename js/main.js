@@ -13,17 +13,19 @@ buttonelement.addEventListener("click", function (event) {
 });
 
 function increaseQuantity() {
-  var quantityInput = document.getElementById("quantityn");
+  let quantityInput = document.getElementById("quantityn");
   quantityInput.value = parseInt(quantityInput.value) + 1;
 }
 
 function decreaseQuantity() {
-  var quantityInput = document.getElementById("quantityn");
-  var currentValue = parseInt(quantityInput.value);
+  let quantityInput = document.getElementById("quantityn");
+  let currentValue = parseInt(quantityInput.value);
   if (currentValue > 1) {
     quantityInput.value = currentValue - 1;
   }
 }
+
+// OpenAI. "JavaScript function for form submission handling." OpenAI, 2023. https://www.example.com/form-handler.js
 
 // Function to handle form submission
 function submitForm(event) {
@@ -46,41 +48,3 @@ function submitForm(event) {
     alert("Please fill in all fields.");
   }
 }
-
-/*
-  Now, you need to get the innertext form quantityn
-  One you hav it, you want it in a variable (which wlil be value)
-  Then you do value -= 1
-  You put the value content, in the auqntityninner text
-
-  quantityn.innerText = value
-
-  */
-
-/*
-
-   0,        1,         2 
-[element1, element2, element3]
-
-Have your buttons to increase or reduce the number they must be seperate buttons
-
-
-You need to have an element it can text or whatever, that element must ONLY contain a number, which will be the quntity the user chose
-
-When your user clicks on the button + or - you listen with an event listener 
-You will have to obtain the number form tje button 
-
-innertext += 1 or -=1
-
-When yo uclick on buy now, you will have to get the number from the uqntity section
-
-once its done the cart section should be a popup because its easier, but basically it will edit
-the pop inner html or inner text to add the corresponding potatoe
-
-you can add the html to have the picture, to have the name, and the quantity taken from teh button
-
-If you dont want to work with a popup we are working with cookies and those are not tasty
-
-
-
-*/
