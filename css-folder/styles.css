@@ -580,3 +580,37 @@ label {
   justify-content: center;
   display: flex;
 }
+
+@media only screen and (max-width: 768px) {
+  .mainsection {
+    grid-template-columns: 1fr;
+    padding: 50px;
+  }
+  
+  .productsection {
+    grid-template-columns: 1fr;
+    padding: 50px;
+  }
+  
+  .collectionsec {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 50px;
+    margin-left: 20px;
+  }
+}
+
+/* For screens smaller than 576px */
+@media only screen and (max-width: 576px) {
+  .mainsection, .productsection {
+    padding: 20px;
+  }
+  
+  .collectionh3 {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  .potatogrid {
+    width: 100%;
+  }
+}
