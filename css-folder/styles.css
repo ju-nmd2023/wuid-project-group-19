@@ -581,6 +581,7 @@ label {
   display: flex;
 }
 
+
 @media only screen and (max-width: 768px) {
   .mainsection {
     grid-template-columns: 1fr;
@@ -599,7 +600,6 @@ label {
   }
 }
 
-/* For screens smaller than 576px */
 @media only screen and (max-width: 576px) {
   .mainsection, .productsection {
     padding: 20px;
