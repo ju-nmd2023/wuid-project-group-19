@@ -21,7 +21,7 @@ body {
   align-items: center;
 }
 
-.footer {
+footer {
   background-color: #004b23;
   color: white;
   padding: 50px 30px;
@@ -486,12 +486,28 @@ label {
   width: 30px;
 }
 
-.navdiv {
+nav {
   background-color: #004b23;
-  width: 50%;
+  width: 100%;
   margin: 0px auto;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navdiv {
+  background-color: #004b23;
+  width: 100%;
+  margin: 0px auto;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .navh3 {
